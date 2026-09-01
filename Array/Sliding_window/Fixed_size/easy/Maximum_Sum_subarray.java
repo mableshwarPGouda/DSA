@@ -1,4 +1,4 @@
-public class MaxSum1 {
+public class Maximum_Sum_subarray  {
     public int maxSum(int [] a , int k ){
      int cs = 0;
      for(int i=0;i<k;i++){
@@ -18,9 +18,9 @@ public class MaxSum1 {
 
 }
    public static void main(String[] args) {
-        int [] a ={100,4,6,7,3,4,8,1,9,400};
+        int [] a ={100,4,6,7,3,4,8,1,9,4};
         int k = 3;
-        MaxSum1 obj = new MaxSum1();
+        Maximum_Sum_subarray obj = new Maximum_Sum_subarray();
         int mx = obj.maxSum(a,k);
 
         System.out.println("max sum : "+ mx);
